@@ -42,8 +42,13 @@ a:hover{
 /* ESTILOS principal */
 #principal{
     margin-top: 3.125em;
-    min-height: 28.125em;
+    
 }
+
+.espacio{
+    min-height: calc(100vf - 10em);
+}
+
 
 /**************************************
 /* ESTILOS de pie */
@@ -55,3 +60,15 @@ a:hover{
     height: 4.6875em;
 }
 
+/**************************************
+/* ESTILOS PRODUCTO */
+#producto{
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    color:#FFFFFF;
+}
+.espaciorow{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
